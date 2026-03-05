@@ -1,8 +1,0 @@
-# Protect JSON files from direct access
-<FilesMatch "\.json$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
-
-# Enable PHP
-AddType application/x-httpd-php .php
